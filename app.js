@@ -27,6 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
+// routes
 app.use('/', indexRouter);
 app.use('/users', userRouter)
 app.use('/products', productRouter);
