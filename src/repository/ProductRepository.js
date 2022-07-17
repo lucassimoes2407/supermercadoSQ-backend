@@ -90,7 +90,6 @@ const getFilteredProduct = async (name, includedIngredients, excludedIngredients
         query = query.slice(0, query.lastIndexOf('A'));
 
         query += " ORDER BY nome";
-        console.log(query);
 
         let products = await databaseQuery(query);
 
