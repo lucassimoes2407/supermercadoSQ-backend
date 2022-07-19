@@ -187,7 +187,6 @@ let createProduct = async ({ nome, marca = null, ingredientes, img_produto = nul
                '${ingredientes}', 
                '${img_produto}',
                ${cod_usuario} )
-            RETURNING cod_produto
         `);
     }
     catch (error) {

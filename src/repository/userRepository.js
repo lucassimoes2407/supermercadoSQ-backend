@@ -124,7 +124,6 @@ const createUser = async (username, email, password, typeUser) => {
                 '${password}', 
                  true, 
                 '${typeUser}')
-            returning cod_usuario        
         `);
     }catch(error){
         throw error;
