@@ -124,7 +124,7 @@ const createUser = async (username, email, password, typeUser) => {
                 '${password}', 
                  true, 
                 '${typeUser}')
-            RETURNING cod_produto
+            RETURNING cod_usuario
         `);
     }catch(error){
         throw error;
