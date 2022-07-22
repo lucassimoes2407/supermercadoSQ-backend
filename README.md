@@ -1,4 +1,13 @@
-# Como começar a usar
+# Projeto - 🛒*Supermercado SQ* 
+
+## Sumário
+* [Como começar a usar](#inicio)
+* [Arquitetura](#arquitetura)
+* [Entidades do Sistema](#entidades)
+* [Equipe DevHub](#equipe)
+
+
+# <a id="inicio"></a> Como começar a usar
 Primeiro de tudo, certifique-se que na sua máquina você tem instalado as seguintes ferramentas:
 
 - Insomnia: [Link para Download](https://insomnia.rest/download)
@@ -17,7 +26,7 @@ Para testar as requisições abra o Insomnia e clique no menu `Application > Pre
 
 ***
 
-# Arquitetura
+# <a id="arquitetura"></a> Arquitetura
 
 | Pasta/Arquivo     | Responsabilidade                                                                      |
 |-------------------|---------------------------------------------------------------------------------------|
@@ -30,7 +39,7 @@ Para testar as requisições abra o Insomnia e clique no menu `Application > Pre
 
 ***
 
-# Entidades do Sistema
+# <a id="entidades"></a> Entidades do Sistema
 
 ## Usuários
 #### Regras de negócio
@@ -140,3 +149,19 @@ RNeg-04| O sistema deve permitir a edição dos dados cadastrados
 | /product-restriction/:cod_produto | DELETE | Apaga uma restrição associada a um produto                   |
 
 ***
+
+<div align=center>
+<a id="equipe"></a>
+![Logo DevHub](./planejamento/logo-devhub-darkmode.png)
+
+| | | | |
+|:---|:---|:---|:---|
+| <img  src="https://avatars.githubusercontent.com/u/86008336?v=4" width=50px/> | <a href="https://github.com/ismaelzaccah">Ismael Zaccah | <img  src="https://avatars.githubusercontent.com/u/42359787?v=4" width=50px/> | <a href="https://github.com/javelfreitas">Javel Freitas |
+| <img  src="https://avatars.githubusercontent.com/u/59093848?v=4" width=50px/> | <a href="https://github.com/wiwiaR">Vitória Ribeiro | <img  src="https://avatars.githubusercontent.com/u/56098754?v=4" width=50px/> | <a href="https://github.com/AglailsonSantiago">Aglailson Santiago |
+| <img  src="https://avatars.githubusercontent.com/u/47800237?v=4" width=50px/> | <a href="https://github.com/andreinamendes">Andreina Mendes | <img  src="https://avatars.githubusercontent.com/u/96750112?v=4" width=50px/> | <a href="https://github.com/lucassimoes2407">Lucas Simoes |
+| <img  src="https://avatars.githubusercontent.com/u/78513841?v=4" width=50px/> | <a href="https://github.com/BrunoSTB">Bruno Braga | <img  src="https://avatars.githubusercontent.com/u/78852666?v=4" width=50px/> | <a href="https://github.com/Elaine-G-L">Elaine Guedes
+
+ **DevHub ©** Atlântico Academy Bootcamp
+ </div>
+
+---
