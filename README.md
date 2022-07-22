@@ -152,7 +152,6 @@ RNeg-04| O sistema deve permitir a edição dos dados cadastrados
 
 <div align=center>
 <a id="equipe"></a>
-![Logo DevHub](./planejamento/logo-devhub-darkmode.png)
 
 | | | | |
 |:---|:---|:---|:---|
