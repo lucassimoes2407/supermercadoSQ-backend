@@ -8,6 +8,7 @@
 
 
 # <a id="inicio"></a> Como começar a usar
+## Teste em Nuvem
 Primeiro de tudo, certifique-se que na sua máquina você tem instalado as seguintes ferramentas:
 
 - Insomnia: [Link para Download](https://insomnia.rest/download)
@@ -15,14 +16,42 @@ Primeiro de tudo, certifique-se que na sua máquina você tem instalado as segui
 A aplicação está hospedada no seguinte link: https://supermercado-sq-backend.herokuapp.com/
 
 Para realizar requisições, você pode tanto realizar direto pelo link, chamando, por exemplo: 
-https://supermercado-sq-backend.herokuapp.com/products
-Para trazer todos os produtos cadastrados.
+https://supermercado-sq-backend.herokuapp.com/products para trazer todos os produtos cadastrados.
 
 Entretanto a melhor forma de realizar requisições no backend são através do Insomnia.
 
 ### Testando através do Insomnia 
 Para testar as requisições abra o Insomnia e clique no menu `Application > Preferences`, vá até a guia `Data` e clique em `Import Data`, depois em `From File` e escolha o arquivo [Testes HTTP - Insomnia.json](./Testes%20HTTP%20-%20Insomnia.json) localizado dentro da pasta `/supermercado-SQ/backend`, na dashboard do Insomnia escolha o projeto que foi importado e vá até a guia `DEBUG`, as requisições estão nomeadas e organizadas em pastas ao lado esquerdo com os nomes das tabelas que correspondem.
 
+## Teste Local
+Primeiro de tudo, certifique-se que na sua máquina você tem instalado as seguintes ferramentas:
+
+- Git: [Guia de Instalação do Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Node: [Link para Download](https://nodejs.org/en/download/)
+- Insomnia: [Link para Download](https://insomnia.rest/download)
+
+No terminal, clone o repositório do GitHub utilizando o seguinte comando:
+```
+git clone https://github.com/lucassimoes2407/supermercado-SQ.git
+```
+Depois rode os seguintes comandos:
+```
+cd supermercado-SQ
+cd backend
+```
+A partir daí, crie um arquivo chamado .env, e popule ele seguindo o modelo existente no arquivo já existente chamado .env-sample.
+
+Então, execute o comando a seguir para instalar as dependências necessárias do NPM:
+```
+npm i 
+```
+Enfim para iniciar o servidor e começar a usar execute :
+```
+nodemon start 
+```
+Caso precise reiniciar ou parar o serviço pressione `Ctrl + C` no Terminal.
+
+Para testar as requisições abra o Insomnia e clique no menu `Application > Preferences`, vá até a guia `Data` e clique em `Import Data`, depois em `From File` e escolha o arquivo [Testes HTTP - Insomnia.json](./Testes%20HTTP%20-%20Insomnia.json) localizado dentro da pasta `/supermercado-SQ/backend`, na dashboard do Insomnia escolha o projeto que foi importado e vá até a guia `DEBUG`, as requisições estão nomeadas e organizadas em pastas ao lado esquerdo com os Nomes das tabelas que as Respondem.
 
 ***
 
